@@ -1,0 +1,88 @@
+@import url(../css/clash-display.css);
+
+:root {
+    --c-lili-escuro:#4E3559;
+    --c-lili-1: #A456A6;
+    --c-lili-2: #BE80BF;
+    --c-lili-3: #D694F2;
+    --c-lili-4: #BF84D9;
+    --c-dark: #212529;
+    --c-brand:#4e57d4;
+    --c-brand-light:#6970dd;
+    --c-brand-rgb:78,87,212;
+    --c-bady:#727272;
+    --font-base:"ClashDisplay", sans-serif;
+    --box-shadow: 0px 10px 25px rgba(78, 53, 89, 0.1);
+    --transition: all 0.5s ease;
+}
+
+body{
+    font-family: var(--font-base);
+    line-height: 1.7;
+    color: var(--c-bady);
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6{
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: var(--c-brand);
+    transition: var(--transition);
+}
+
+a:hover{
+    color: var(--c-brand-light);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.section-padding{
+    padding-top: 144px;
+    padding-bottom: 144px;
+}
+
+/*  NAVBAR  */
+.navbar{
+    box-shadow: var(--box-shadow);
+}
+
+.navbar-nav .nav-link{
+    font-weight: 500;
+    color: var(--c-lili-1);
+}
+
+.navbar-nav .nav-link.active{
+    color: var(--c-lili-escuro);
+}
+
+/*BTN*/
+.btn{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 24px;
+}
+
+.btn-lili{/*btn-brand*/
+    background-color: var(--c-lili-escuro);
+    color: white;
+}
+
+.btn-lili:hover{
+    background-color: var(--c-lili-1);
+    color: white;
+}
+
+/*HERO*/
+#hero{
+    background: linear-gradient(#4e35597c, #4e35595d), url("../images/hero-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
