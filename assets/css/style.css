@@ -139,6 +139,9 @@ img{
     overflow: hidden;
     z-index: 2;
 }
+.servicos:hover{
+    cursor: pointer;
+}
 
 .servicos::after{
     content: "";
@@ -156,6 +159,7 @@ img{
     height: 100%;
     background: var(--c-lili-bg);
     z-index: -1;
+
 }
 
 .servicos:hover h5,
@@ -165,4 +169,5 @@ img{
 
 .servicos:hover .iconbox{
     background: white;
+
 }
