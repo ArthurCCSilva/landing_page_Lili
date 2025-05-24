@@ -104,3 +104,20 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+/*TEXT AJUST*/
+.text-justify{
+    text-align: justify;
+}
+
+/*ICON BOOTSTRAP*/
+.iconbox{
+    width:64px;
+    height: 64px;
+    display:inline-flex;
+    align-items: center; /*orizontal*/
+    justify-content: center; /*vertical*/
+    background: rgba(191, 132, 217, 0.2);
+    color: var(--c-lili-escuro);
+    font-size: 38px;
+    flex: none;
+}
