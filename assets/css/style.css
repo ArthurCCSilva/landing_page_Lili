@@ -211,11 +211,4 @@ img{
     top: 50%;
 }
 
-.galeria-item .iconbox:hover{
-    background-color: var(--c-lili-bg);
-    color: var(--c-lili-escuro);
-}
 
-.fancybox__container .fancybox__button--close {
-    display: block !important;
-}
