@@ -232,3 +232,9 @@ img{
     text-transform: uppercase;
     color: var(--c-lili-escuro);
 }
+
+/*contato*/
+
+.h5contato{
+    font-weight: 400;
+}
