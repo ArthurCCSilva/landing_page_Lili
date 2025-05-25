@@ -211,4 +211,24 @@ img{
     top: 50%;
 }
 
+/*Relatos*/
+/*REVIEW*/
+.review-head{
+    position: relative;
+}
 
+.review-head::after{
+    content: "";
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    bottom: -14;
+    background-color: var(--c-lili-4);
+    transform: rotate(45deg);
+}
+
+.review small{
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--c-lili-escuro);
+}
