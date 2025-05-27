@@ -238,3 +238,54 @@ img{
 .h5contato{
     font-weight: 400;
 }
+
+/*FOOTER*/
+footer{
+    margin-top: 40px;
+}
+
+.footer-top{
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--c-lili-4);
+}
+
+.footer-bottom{
+    padding: 25px;
+    padding-bottom: 25px;
+}
+
+.bg-footer{
+    background-color: #2e1e35;
+}
+
+footer li,
+footer p,
+footer a{
+    color: white;
+}
+
+footer ul{
+    padding-left: 0;
+}
+
+footer li{
+    list-style: none;
+}
+
+footer .line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--c-lili-4);
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.sociais-icons a{
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-lili-bg);
+    border-radius: 100px;
+}
